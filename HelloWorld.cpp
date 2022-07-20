@@ -13,6 +13,11 @@ double multiply (double f, double g){
      double multiply = f*g;
      return multiply;
 }
+
+double divide(double h, double i){
+     double divide = h/i;
+     return divide;
+}
     
 int main(){
   std::cout << "Hello, World!" << std::endl
@@ -20,5 +25,6 @@ int main(){
   std::cout << "3 + 5 is " << add(3, 5) << std::endl
    << "3.0 - 5.0 is " << subtract (3.0, 5.0) << std::endl
    << "3.0*5.0 is" << multiply(3.0,5.0) << std::endl;
+   << "3.0/5.0 is" << divide(3.0,5.0) << std::endl;
 }
 
